@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pythagorean Theorem : solve for hypotenuse"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/triangle"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            android:text="C ?"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leg_a"
+        android:hint="leg a"
+        android:textColor="#999"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:paddingBottom="0dp"
+        android:paddingTop="6dp"
+        android:paddingLeft="37dp"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edtTextB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leg_b"
+        android:hint="leg b"
+        android:textColor="#999"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnSlove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="SOLVE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ponpitak Sirimart - 621310433"
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
